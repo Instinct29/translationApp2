@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script:wght@400;700&family=Merriweather:wght@400;700&family=Roboto:wght@400;700&display=swap');
+body{
+    font-family: 'Cookie', cursive;
+    font-family: 'Dancing Script', cursive;
+}
+
+.heading,.input,.output{
+    text-align: center;
+    /* border: 1px solid black; */
+    width: 75%;
+    margin: 0 auto;
+    height: 50%;
+}
+#input-text {
+    height: 4rem;
+    width: 75%;
+    padding: 1rem;
+    font-family: 'Cookie', cursive;
+    font-size: larger;
+    font-weight: 100;
+}
+.button{
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Cookie', cursive;
+}
+.outputdiv{
+    border: 1px solid black;
+    height: 4rem;
+    width: 75%;
+    padding: 1rem;
+    margin-left: 5.3rem;
+}
+.button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #080808;
+    font-size: x-large;
+    transition-duration: 1s;
+    border-radius: 6px;
+  }
+  
+  .button2:hover {
+    background-color: #181818;
+    color: white;
+   
+  }
+  .outputdiv{
+      font-size: x-large;
+  }
+  .footer-para{
+      font-size: larger;
+      font-family:'Cookie', cursive ;
+  }
+  .footer{
+    margin-top: 4rem;
+    height: 6rem;
+    width: 100%;
+    text-align: center;
+    background-color:#080808;
+    border-top-right-radius: 3rem;
+    padding: 2rem 1rem;
+    color: wheat;
+}
+.footer-header{
+    font-size: x-large;
+}
